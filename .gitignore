@@ -1,0 +1,23 @@
+# Ignore virtual environment folders
+venv/
+.env/
+ENV/
+
+# Ignore Streamlit secrets
+.streamlit/secrets.toml
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system/IDE files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Ignore logs
+*.log
